@@ -6,5 +6,7 @@
 
 {% block content %}
 <h2>Профиль {{ user.username }}</h2>
-
+<a href="{% url 'main:profile_change' %}">Изменить данные</a>
+<a href="{% url 'main:password_change' %}">Изменить пароль</a>
+<h3>Ваши посты</h3>
 {% endblock %}
