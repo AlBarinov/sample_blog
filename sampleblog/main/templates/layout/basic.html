@@ -1,0 +1,46 @@
+{% load bootstrap5 %}
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>{% block title %}Главная{% endblock %} - Блог обо всем на свете</title>
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}
+
+    </head>
+<body class="container-fluid">
+    <header class="mb-4">
+        <h1 class="display-1 text-center">Обо всем на свете</h1>
+    </header>
+    <div class="row border">
+        <ul class="col nav justify-content-start ">
+            <li class="nav-item"><a class="nav-link" href="#">Поиск</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Рубрики</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'main:about' %}">О нас</a></li>
+        </ul>
+        <ul class="col nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#">Регистрация</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Вход</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenuLink" aria-expanded="false" href="#">Профиль</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Личный кабинет</a></li>
+                    <li><a class="dropdown-item" href="#">Написать пост</a></li>
+                    <li><div class="dropdown-divider"></div></li>
+                   <li><a class="dropdown-item" href="#">Выйти</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <section class="col border py-2">
+            {% bootstrap_messages %}
+            {% block content %}
+            {% endblock %}
+        </section>
+    </div>
+</body>
+</html>

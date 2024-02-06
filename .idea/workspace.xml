@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d783c42-dd6d-49f7-bb8d-05bf0b15b0da" name="Changes" comment="Создал основное приложение проекта">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sample_blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="4d783c42-dd6d-49f7-bb8d-05bf0b15b0da" name="Changes" comment="Описание проекта">
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/layout/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/about_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/sampleblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/sampleblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/sampleblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/sampleblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2bz22NBUczJ4aCBgxwi16bbbvpr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Other File Types"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707204942918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Описание проекта">
+      <option name="closed" value="true" />
+      <created>1707205733089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707205733089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начало проекта" />
     <MESSAGE value="Создал основное приложение проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал основное приложение проекта" />
+    <MESSAGE value="Описание проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Описание проекта" />
   </component>
 </project>
