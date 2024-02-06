@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d783c42-dd6d-49f7-bb8d-05bf0b15b0da" name="Changes" comment="Описание проекта">
-      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/layout/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/about_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleblog/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/utilities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sampleblog/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/templates/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/templates/layout/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleblog/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleblog/sampleblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/sampleblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sampleblog/sampleblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/sampleblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +25,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AlBarinov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ed02f330-e16f-4c7c-a927-25facb1c3bd6" />
+        <option name="url" value="https://github.com/AlBarinov/sample_blog.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bz22NBUczJ4aCBgxwi16bbbvpr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,14 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Other File Types"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Other File Types&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
