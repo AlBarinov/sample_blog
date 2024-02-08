@@ -1,0 +1,16 @@
+{% extends "layout/basic.html" %}
+
+{% load bootstrap5 %}
+
+{% block title %}Рубрики{% endblock %}
+
+{% block content %}
+<h2>Рубрики</h2>
+{% for rubric in rubrics %}
+{% ifchanged rubric.super_rubric.pk %}
+<span class="nav font-weight-bold">
+    {{ rubric.super_rubric.name }}</span>
+{% endifchanged %}
+<a class="nav-link" href="{% url 'main:by_rubric' pk=rubric.pk %}">{{ rubric.name }}</a>
+{% endfor %}
+{% endblock %}

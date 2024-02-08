@@ -1,6 +1,8 @@
 from django.urls import path
 
-from .views import index, about_page, BlogLoginView, profile, BlogLogoutView, ChangeUserInfoView, BlogPasswordChangeView, RegisterUserView, DeleteUserView
+from .views import (index, about_page, BlogLoginView, profile, BlogLogoutView, ChangeUserInfoView,
+                    BlogPasswordChangeView, RegisterUserView, DeleteUserView, rubric, by_rubric,
+                    detail, detail_index)
 
 
 app_name = 'main'
@@ -13,5 +15,9 @@ urlpatterns = [
     path('accounts/register/', RegisterUserView.as_view(), name='register'),
     path('accounts/login/', BlogLoginView.as_view(), name='login'),
     path('', index, name='index'),
+    path('index/<int:pk>/', detail_index, name='detail_index'),
+    path('rubric/', rubric, name='rubric'),
+    path('<int:rubric_pk>/<int:pk>/', detail, name='detail'),
+    path('<int:pk>/', by_rubric, name='by_rubric'),
     path('about/', about_page, name='about')
 ]

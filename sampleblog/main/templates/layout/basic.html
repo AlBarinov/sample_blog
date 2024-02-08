@@ -8,6 +8,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>{% block title %}Главная{% endblock %} - Блог обо всем на свете</title>
         {% bootstrap_css %}
+        <link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
         {% bootstrap_javascript %}
 
     </head>
@@ -18,7 +19,7 @@
     <div class="row border">
         <ul class="col nav justify-content-start ">
             <li class="nav-item"><a class="nav-link" href="#">Поиск</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Рубрики</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'main:rubric' %}">Рубрики</a></li>
             <li class="nav-item"><a class="nav-link" href="{% url 'main:about' %}">О нас</a></li>
         </ul>
         <ul class="col nav justify-content-end">

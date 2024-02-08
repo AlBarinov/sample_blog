@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d783c42-dd6d-49f7-bb8d-05bf0b15b0da" name="Changes" comment="Реализовал регистрацию пользователя, изменение данных о пользователе и пароля в &quot;личном кабинете&quot;">
-      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/delete_user.html" afterDir="false" />
+    <list default="true" id="4d783c42-dd6d-49f7-bb8d-05bf0b15b0da" name="Changes" comment="Реализовал функцию удаления пользователя через его &quot;личный кабинет&quot;. Также добавил редакто для администрации сайта.">
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/static/main/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/by_rubric.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/detail_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/rubric.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleblog/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleblog/main/templates/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/templates/layout/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sampleblog/main/templates/main/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleblog/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleblog/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleblog/sampleblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleblog/sampleblog/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707234408561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Реализовал функцию удаления пользователя через его &quot;личный кабинет&quot;. Также добавил редакто для администрации сайта.">
+      <option name="closed" value="true" />
+      <created>1707297072529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707297072529</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +143,7 @@
     <MESSAGE value="Описание проекта" />
     <MESSAGE value="Добавил модель пользователя в БД. Добавил страницу входа." />
     <MESSAGE value="Реализовал регистрацию пользователя, изменение данных о пользователе и пароля в &quot;личном кабинете&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовал регистрацию пользователя, изменение данных о пользователе и пароля в &quot;личном кабинете&quot;" />
+    <MESSAGE value="Реализовал функцию удаления пользователя через его &quot;личный кабинет&quot;. Также добавил редакто для администрации сайта." />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализовал функцию удаления пользователя через его &quot;личный кабинет&quot;. Также добавил редакто для администрации сайта." />
   </component>
 </project>
